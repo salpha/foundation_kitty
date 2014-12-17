@@ -31,6 +31,8 @@ section {
 
 /* Content */
 
+
+
 #main-content {
     background-color: lightpink;
 }
@@ -44,5 +46,18 @@ section {
     text-align: center;
     color: #ffffff;
     background-color: rgba(0,0,0,0.5);
-    font-family: sans-serif;
+}
+
+.gallery li {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+li div {
+    position: relative;
 }
